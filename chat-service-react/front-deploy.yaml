@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: chat-frontend
-          image: 8bin/chat-service-frontend:1.0.1  # 예: docker.io/username/chat-frontend:latest
+          image: gaemineunttungttung/frontend:latest  # 예: docker.io/username/chat-frontend:latest
           ports:
             - containerPort: 80
           resources:
